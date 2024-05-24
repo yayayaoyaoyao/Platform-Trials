@@ -30,7 +30,8 @@ RAR_with_a_Bayesian_Paradigm_MLE.R is the R code file using maximum likelihood a
 
 functions.R is the R code file with required functions to run RAR_with_a_Bayesian_Paradigm_JAGS.R and RAR_with_a_Bayesian_Paradigm_MLE.R.
 
-#References
+# References
+
 Plummer, M. et al. (2003). “JAGS: A program for analysis of Bayesian graphical models using Gibbs
 sampling”. In: Proceedings of the 3rd International Workshop on Distributed Statistical Computing,
 pp. 1–10.
