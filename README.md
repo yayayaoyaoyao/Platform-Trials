@@ -1,7 +1,9 @@
 # Platform-Trials
 
-This repository provides some code for simulating response-adaptive randomisation with a Bayesian paradigm in platform trials to simultaneously test
-multiple interventions against a reference intervention within each subgroup in a factorial design. 
+This repository provides some code for simulating response-adaptive randomisation with a Bayesian paradigm in platform trials to simultaneously test multiple interventions against a reference intervention within each subgroup in a factorial design. 
+
+The following descriptions are from REMAP-CAP Team (2019a), REMAP-CAP Team (2019b), Mahar
+et al. (2023), Tong et al. (2022) and REMAP-CAP Team (2020).
 
 The simulation model can be simplified as
 $$ log \left( \frac{p}{1-p}\right) = \alpha_{shock} + \beta_A + \beta_S + \beta_M + \delta_{shock,S2} + \delta_{shock,S3}  $$
@@ -31,6 +33,21 @@ RAR_with_a_Bayesian_Paradigm_MLE.R is the R code file using maximum likelihood a
 functions.R is the R code file with required functions to run RAR_with_a_Bayesian_Paradigm_JAGS.R and RAR_with_a_Bayesian_Paradigm_MLE.R.
 
 # References
+
+REMAP-CAP Team (2019a). Appendix to Core Protocol: STATISTICAL ANALYSIS APPENDIX REMAP-CAP: Randomized, Embedded, Multifactorial Adaptive Platform trial for Community-Acquired Pneumonia. Tech. rep. URL: https://static1.squarespace.com/static/5cde3c7d9a
+69340001d79ffe/t/5e82b68a143343364b38c10c/1585624721568/REMAP-CAP\+Statistical\+Analysis\+Appendix\+V3\+\-\+24\+August\+2019\_WM.pdf.
+
+REMAP-CAP Team (2019b). Randomized, Embedded, Multifactorial Adaptive Platform trial for Community Acquired Pneumonia (REMAP-CAP): Core Protocol. Tech. rep. URL: https://static1.squarespace.com/static/5cde3c7d9a69340001d79ffe/t/5e82b62eda9c1c714065efc0/1585624649154/REMAP\-CAP\ +Core\+Protocol\+V3\+\-\+10\+July\+2019\_WM.pdf.
+
+Mahar, R. K., McGlothlin, A., Dymock, M., Lee, T. C., Lewis, R. J., Lumley, T., Mora, J., Price, D. J.,
+Saville, B. R., Snelling, T., et al. (2023). “A blueprint for a multi-disease, multi-domain Bayesian adaptive platform trial incorporating adult and paediatric subgroups: the Staphylococcus aureus Network
+Adaptive Platform Trial”. Trials, 24(1), pp. 1–15.
+
+Tong, S. Y., Mora, J., Bowen, A. C., Cheng, M. P., Daneman, N., Goodman, A. L., Heriot, G. S., Lee,
+T. C., Lewis, R. J., Lye, D. C., et al. (2022). “The Staphylococcus aureus network adaptive platform
+trial protocol: new tools for an old foe”. Clinical Infectious Diseases, 75(11), pp. 2027–2034.
+
+REMAP-CAP Team (2020). Clinical Simulation Report: STATISTICAL ANALYSIS APPENDIX REMAPpCAP: Randomized, Embedded, Multifactorial Adaptive Platform trial for Community-Acquired Pneumonia. Tech. rep. URL: https : //static1.squarespace.com/static/5cde3c7d9a69340001d79ffe/t/ 5e8ed907493fb4203142d0fb/1586420012673/REMAP-CAP+SimulationReport-06+April+2020.pdf.
 
 Plummer, M. et al. (2003). “JAGS: A program for analysis of Bayesian graphical models using Gibbs
 sampling”. In: Proceedings of the 3rd International Workshop on Distributed Statistical Computing,
